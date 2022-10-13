@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Hello print
+ * main - Hello puts
  *
  * Return: 0
 */
 
 int main(void)
 {
-	put("with proper grammar, but the outcome is a piece of art, \n");
+	puts("with proper grammar, but the outcome is a piece of art, \n");
 	return (0);
 }
