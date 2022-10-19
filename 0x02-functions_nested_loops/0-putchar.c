@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - print _putchar
- * this is written by Debbie
  * Return: 0
 */
 
