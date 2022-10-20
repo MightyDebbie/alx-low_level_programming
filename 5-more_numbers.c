@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * more_numbers - nmbr fct
- * Ddebbie tech file
+ * more_numbers - nmbr fact
+ *
  * Return: no return
  */
 
