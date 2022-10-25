@@ -1,13 +1,11 @@
-#includde "main.h"
-
+#include "main.h"
 /**
- * puts2 - prints one char out of two string.
+ * puts2 - prints every other character of a string
  *
- * @str: input string to check.
+ * @str: char to check
  *
- * Return: 0
-*/
-
+ * Return: 0 is success
+ */
 void puts2(char *str)
 {
 	int string;
