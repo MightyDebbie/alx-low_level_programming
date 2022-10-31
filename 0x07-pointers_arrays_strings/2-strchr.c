@@ -1,32 +1,26 @@
 #include "main.h"
 
 /**
-  * _strspn - search a string for a set of bytes
-  * @s: source string
-  * @accept: accepted string
-  *
-  * Return: number of bytes in the init segment
-  */
-unsigned int _strspn(char *s, char *accept)
+ * _strchr - locates a character in a string
+ *
+ * @c: occurrence of the character
+ *
+ * @s: in the string
+ *
+ * Return: a pointer to the first occurrence of the character
+ */
+
+char *_strchr(char *s, char c)
 {
-	unsigned int a = 0, b, t = 0;
-
-	while (accept[a])
+	while (*s)
 	{
-		b = 0;
-
-		while (s[b] != 32)
-		{
-			if (accept[a] == s[b])
-			{
-				t++;
-			}
-
-			b++;
-		}
-
-		a++;
+		if (*s != c)
+			s++;
+		else
+			return (s);
 	}
+	if (c == '\0')
+		return (s);
 
-	return (t);
+	return (NULL);
 }
