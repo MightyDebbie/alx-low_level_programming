@@ -1,0 +1,1 @@
+Solution static libraries task
